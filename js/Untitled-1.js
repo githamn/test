@@ -10,8 +10,9 @@
 }
 //随机设置背景色
 function setBGC() {
-	var colorArr = new Array("#4395D1", "#00A99D", "#FBAF5D", "#84871C", "#9E6B52", "#A186BE");
+	var colorArr = new Array("#02fc07", "#02fc07, "#02fc07", "#02fc07", "#02fc07", "#02fc07");
 	var i = random(0, 5);
 	document.getElementById("imgBg").style.background = colorArr[i];
+              document.getElementById("realclock").style.background = colorArr[i];
 }
-setInterval(setBGC, 300);
+setInterval(setBGC, 1000);
